@@ -13,6 +13,14 @@ ln -s ~/.local/bin/pairtools
 ln -s ~/.local/bin/deeptools
 ```
 
+In working directory, download Micro-C and JuicerTools:
+```
+cd /scratch/yhao/Micro-C
+git clone https://github.com/dovetail-genomics/Micro-C.git
+wget https://s3.amazonaws.com/hicfiles.tc4ga.com/public/juicer/juicer_tools_1.22.01.jar
+mv juicer_tools_1.22.01.jar ./Micro-C/juicertools.jar
+```
+
 Pre-installed software on dback can be loaded directly:
 ```
 module load BEDTools/2.29.0
