@@ -1,6 +1,6 @@
 # [Micro-C](https://micro-c.readthedocs.io/en/latest/index.html) pipeline
 
-#### Step0: install dependencies
+#### [Step0: install dependencies](/Dependencies.md)
 
 #### Step1: generate genome file
 
