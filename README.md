@@ -14,6 +14,7 @@ sbatch map_pairs.sh
 
 #### Step3: [Library QC](https://micro-c.readthedocs.io/en/latest/library_qc.html)
 ```
+module load Python/3.8.2-GCCcore-9.3.0
 python3 ./Micro-C/get_qc.py -p stats.txt
 ```
 The output should look like:
